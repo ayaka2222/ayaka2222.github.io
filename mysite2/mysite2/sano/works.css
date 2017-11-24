@@ -1,0 +1,165 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.nav-list{
+    float: left;
+    width: 210px;
+    text-align: right;
+    list-style: none;
+    line-height: 100px;
+}
+a:hover{
+    color: #a9a9a9;
+    font-size: 20px;
+    }
+header{
+    width: 100%;
+    background-color: #d3d3d3;
+    width: 1280px;
+    /*height: 800px;*/
+    background-size: contain;
+    background-position: center;
+
+}
+.headding {
+    margin-top: 90px;
+    color: white;
+}
+
+.portfolio-box{
+  /*  height: 1280px;
+    width: 1200px;*/
+    background-color: #d3d3d3;
+    margin-top: 50px;
+    width: 790px;
+    margin: 0 auto;
+
+}
+.portfolio-box1{
+    height: 300px;
+    
+}
+.portfolio-box2{
+    
+    }
+.portfolio-box3{
+    
+}
+.portfolio-box4{
+    
+}
+.box{
+height: 250px;
+width: 250px;
+float: right; 
+margin-bottom: 25px;
+background-size: cover;
+background-position: center;
+}
+
+h1{
+    font-weight: 400;/*<文字の太さ＞*/
+    color: white;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+h3{
+    font-weight: 400;
+    color: white;
+    margin-left:60px;
+}
+
+a{
+ color: white;
+}
+
+.box1{background-image: url(../img2/DSC01888.JPG);}
+.box2{background-image: url(../img2/P1010029.JPG);margin: 0 20px;}
+.box3{background-image: url(../img2/IMG_3018.JPG);}
+.box4{background-image: url(../img2/P7160006.JPG);}
+.box5{background-image: url(../img2/DSC01890.JPG);margin: 0 20px;}
+.box6{background-image: url(../img2/P6260001.JPG);}
+.box7{background-image: url(../img2/IMG_3034.JPG);}
+.box8{background-image: url(../img2/DSC_0004.JPG);margin: 0 20px;}
+.box9{background-image: url(../img2/P1010001.JPG);}
+.box10{background-image: url(../img2/P6260018.JPG);}
+.box11{background-image: url(../img2/P7140047.JPG);margin: 0 20px;}
+.box12{background-image: url(../img2/PC250013.JPG);}
+
+
+.text{
+    color: black;
+    margin-top: 10px;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+    position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+    top:10px;
+    left: 10px;
+    color: white;
+    font-size: 25px;
+}
+.text2{
+    color: black;
+    margin-top: 10px;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+    position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+    top:35px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
+.p{
+    color: white;
+    font-weight: 400;
+    text-align: right;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+    position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+    top:400px;
+    left: 1000px;
+
+}
+.nav-list{
+    float: left;
+    width: 210px;
+    text-align: right;/*(文字を右側にする)*/
+    list-style: none;
+}
+.title{
+    /*position: relative;*/
+    /*position: absolute;*/
+    width: 770px;
+    margin: 0 auto;
+    /*top: 80px;*/
+    /*left: 230px;*/
+    font-size: 25px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+a{
+    color: white;
+}
+nav{
+    /*height: 500px;*/
+    width: 900px;
+}
+.small{
+    width: 1280px;
+    color: white;
+    font-size: 16px;
+    /*margin-top: 700px;*/
+    border-top: 1px solid white; 
+    background-color: #d3d3d3; 
+}
+
