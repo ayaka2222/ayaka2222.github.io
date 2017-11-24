@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+a:hover{
+	color: black;
+	font-size: 20px;
+}
+header{
+	position: fixed;
+	background-color: #d3d3d3;
+	width: 100%;
+	width: 1280px;
+	height: 500px;
+	background-image: url(../img2/P6260002.JPG);
+	background-size: contain;
+	background-position: center;
+	position: fixed;
+}
+.text{
+	color: black;
+	margin-top: 10px;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+	position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+	top:10px;
+	left: 10px;
+	color: white;
+	font-size: 25px;
+	position: fixed;
+}
+.text2{
+	color: black;
+    margin-top: 10px;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+	position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+	top:35px;
+	left: 10px;
+	color: white;
+	font-size: 18px;
+	position: fixed;
+}
+.text3{
+	color: white;
+	font-weight: 400;
+    position: relative;/*(本来表示されるべき位置：ボックス左上)*/
+	position: absolute;/*(relativeを基準としてどれだけ動かしたいか)*/
+	top:400px;
+	left: 1000px;
+	position: fixed;
+
+}
+.nav-list{
+	float: left;
+	width: 210px;
+	text-align: right;/*(文字を右側にする)*/
+	list-style: none;
+	line-height: 100px;/*(ヘッダー内の上下中央に文字を移動する)*/
+}
+a{
+	color: white;
+}
+nav{
+	height: 1000px;
+	width: 900px;
+}
+.box{
+	width: 250px;
+	height: 205px;
+	background-color: #a9a9a9;
+	color: white;
+	font-size: 16px;
+	margin-top: 250px;
+	margin-left: 15px;
+	position: fixed;
+	padding: 10px;
+
+}
+.box2{
+	border-top: 1px solid black;
+	width: 1280px;
+	height: 380px;
+	color: black;
+	font-size: 14px;
+	margin-top: 510px;
+	position: fixed;
+
+}
+.small{
+	width: 1280px;
+	color: black;
+	font-size: 16px;
+	margin-top: 700px;
+	position: fixed;
+	border-top: 1px solid black;	
+}
